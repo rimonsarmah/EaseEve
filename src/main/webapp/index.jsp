@@ -1,6 +1,5 @@
 <html>
 <body>
-<a href="hello1">Spring MVC</a> ||
-<a href="hello2">Spring Boot</a>
+    <h1>Hi</h1>
 </body>
 </html>
