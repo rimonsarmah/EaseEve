@@ -17,7 +17,7 @@ public class TestController {
     UserDao userDao;
     @RequestMapping( "test")
     public String testGet(){
-        logger.info("In test Controller");
+        /*logger.info("In test Controller");
         User user = new User();
         user.setUserName("rimon");
         user.setUserEmail("rimonsarmahjnv@gmail.com");
@@ -29,7 +29,7 @@ public class TestController {
         }
         catch (Exception exception){
             logger.error("Some exception occured while adding user: " + exception.getMessage());
-        }
+        }*/
         return "testSuccess";
     }
 }
